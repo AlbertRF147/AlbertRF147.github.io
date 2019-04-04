@@ -1,0 +1,157 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Play");
+
+
+$info: #007ef5;
+
+@import "../node_modules/bulma/bulma.sass";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  font-family: "Open Sans";
+}
+
+body {
+  background: #f5f5f5;
+  font-family: "Montserrat";
+}
+
+.title.is-main {
+  font-family: 'Play';
+}
+
+section:first-of-type {
+  margin-top: 85px;
+}
+
+.navbar {
+  padding: 12px 0 0 0;
+  border-bottom: 1px solid lightgrey;
+  transition: all .3s ease;
+}
+
+.navbar-hidden {
+  transform: translateY(-65px);
+}
+
+.avatar {
+  max-width: 50%;
+  min-height: 300px;
+}
+
+.circle {
+  float: left;
+  shape-outside: circle();
+  max-height: 300px;
+  margin-right: 1em;
+}
+
+.avatar p {
+  text-align: justify;
+}
+
+.hero-foot img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.list {
+  margin-top: 30px;
+  box-shadow: none;
+}
+
+.container.is-narrow {
+  max-width: 1000px;
+}
+
+.skills {
+  margin-top: -200px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.skills .columns .column {
+    padding: 32px;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.tile.is-child {
+  min-height: 200px;
+}
+
+.is-child.box {
+  background-size: cover;
+}
+
+#project-1 {
+  background-image: url("./img/codepen4.png");
+}
+
+#project-2 {
+  background-image: url("./img/glitch.jpg");
+}
+
+#project-3 {
+  background-image: url("./img/sellthatwine2.png");
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0.5;
+  color: white;
+  line-height: 2.5em;
+  z-index: 2;
+}
+
+.project:hover .project-title {
+  visibility: hidden;
+}
+
+.project-desc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 2.5em;
+  padding: 0 24px;
+  text-align: justify;
+  color: transparent;
+  background: #000;
+  opacity: 0.5;
+  z-index: 1;
+  transition: all 0.2s ease;
+}
+
+.project:hover .project-desc {
+  color: #fff;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.project-text {
+  font-size: 0.8em;
+}
