@@ -41,8 +41,20 @@ section:first-of-type {
 }
 
 .avatar {
-  max-width: 50%;
+  max-width: 90%;
   min-height: 300px;
+}
+
+@media (min-width: 768px) {
+	.avatar {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 1300px) {
+	.avatar {
+		max-width: 50%;
+	}
 }
 
 .circle {
