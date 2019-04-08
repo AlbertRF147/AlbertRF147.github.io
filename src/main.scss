@@ -6,6 +6,7 @@
 
 
 $info: #007ef5;
+$linting: #f500bc;
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -24,6 +25,11 @@ body {
 
 .title.is-main {
   font-family: 'Play';
+}
+
+.linting {
+  color: $linting;
+  font-weight: bold;
 }
 
 section:first-of-type {
@@ -166,4 +172,43 @@ section:first-of-type {
 
 .project-text {
   font-size: 0.8em;
+}
+
+
+// Tools icon (gears)
+.tools-icon {
+  display: inline-block;
+  position: relative;
+}
+
+#gear-one {
+  height: 30px;
+  width: 30px;
+  //transform: rotate(4deg);
+  // transform: scale(2.5);
+  // transform-origin: 0% 0%;
+  animation: rotate 10s linear infinite;
+}
+
+#gear-two {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  right: -12px;
+  bottom: 0;
+  animation: rotate 10s linear infinite;
+  animation-direction: reverse;
+}
+
+.tools-icon path {
+  fill: #4a4a4a;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(4deg);
+  }
+  to {
+    transform: rotate(364deg);
+  }
 }

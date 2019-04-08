@@ -6943,6 +6943,10 @@ body {
 .title.is-main {
   font-family: 'Play'; }
 
+.linting {
+  color: #f500bc;
+  font-weight: bold; }
+
 section:first-of-type {
   margin-top: 85px; }
 
@@ -6955,8 +6959,16 @@ section:first-of-type {
   transform: translateY(-65px); }
 
 .avatar {
-  max-width: 50%;
+  max-width: 90%;
   min-height: 300px; }
+
+@media (min-width: 768px) {
+  .avatar {
+    max-width: 80%; } }
+
+@media (min-width: 1300px) {
+  .avatar {
+    max-width: 50%; } }
 
 .circle {
   float: left;
@@ -7050,4 +7062,31 @@ section:first-of-type {
 
 .project-text {
   font-size: 0.8em; }
+
+.tools-icon {
+  display: inline-block;
+  position: relative; }
+
+#gear-one {
+  height: 30px;
+  width: 30px;
+  animation: rotate 10s linear infinite; }
+
+#gear-two {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  right: -12px;
+  bottom: 0;
+  animation: rotate 10s linear infinite;
+  animation-direction: reverse; }
+
+.tools-icon path {
+  fill: #4a4a4a; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(4deg); }
+  to {
+    transform: rotate(364deg); } }
 
