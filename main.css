@@ -7013,11 +7013,14 @@ section:first-of-type {
 #project-1 {
   background-image: url(18d53273f3ab58ba5a9441ff646b05aa.png); }
 
+#project-2 {
+  background-image: url(fc26acc9b1304296ea047cc281141264.png); }
+
 #project-3 {
   background-image: url(ae0aced5690049bcc03b31937aa4cbd5.jpg); }
 
 #project-4 {
-  background-image: url(8ce8ab189878cb49ab348b1b0659e481.png); }
+  background-image: url(32e453ea4d3f63221944824cc62ec446.png); }
 
 .project {
   display: flex;
@@ -7035,7 +7038,7 @@ section:first-of-type {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.8;
   color: white;
   line-height: 2.5em;
   z-index: 2; }
@@ -7054,7 +7057,7 @@ section:first-of-type {
   text-align: justify;
   color: transparent;
   background: #000;
-  opacity: 0.5;
+  opacity: 0.7;
   z-index: 1;
   transition: all 0.2s ease; }
 
