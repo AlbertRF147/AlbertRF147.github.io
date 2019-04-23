@@ -6955,6 +6955,9 @@ section:first-of-type {
   border-bottom: 1px solid lightgrey;
   transition: all .3s ease; }
 
+.navbar-item img {
+  max-height: 3rem; }
+
 .navbar-hidden {
   transform: translateY(-65px); }
 
