@@ -7011,16 +7011,24 @@ section:first-of-type {
   background-size: cover; }
 
 #project-1 {
-  background-image: url(18d53273f3ab58ba5a9441ff646b05aa.png); }
+  background-image: url(8299d74208ad7b9b354b1aaf316fc08b.png);
+  background-size: contain; }
 
 #project-2 {
   background-image: url(fc26acc9b1304296ea047cc281141264.png); }
 
 #project-3 {
-  background-image: url(ae0aced5690049bcc03b31937aa4cbd5.jpg); }
+  background-image: url(32e453ea4d3f63221944824cc62ec446.png);
+  background-position: 0 -70px; }
 
 #project-4 {
-  background-image: url(32e453ea4d3f63221944824cc62ec446.png); }
+  background-image: url(1c758cef4d5da5c9d965cee93de5326a.png); }
+
+#project-5 {
+  background-image: url(561b5c168673687824338cb07d6ddf84.png); }
+
+#project-6 {
+  background-image: url(76071425b9b5dfe196d784b1dd094ac3.png); }
 
 .project {
   display: flex;
