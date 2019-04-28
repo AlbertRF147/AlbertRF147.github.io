@@ -114,7 +114,8 @@ section:first-of-type {
 }
 
 #project-1 {
-  background-image: url("./img/codepen4.png");
+  background-image: url("./img/Cards.png");
+  background-size: contain;
 }
 
 #project-2 {
@@ -122,12 +123,22 @@ section:first-of-type {
 }
 
 #project-3 {
-  background-image: url("./img/glitch.jpg");
+  background-image: url("./img/sellthatwine3.png");
+  background-position: 0 -70px;
 }
 
 #project-4 {
-  background-image: url("./img/sellthatwine3.png");
+  background-image: url("./img/UKWeather.png");
 }
+
+#project-5 {
+  background-image: url("./img/MonaBubble.png");
+}
+
+#project-6 {
+  background-image: url("./img/TempGauge.png");
+}
+
 
 .project {
   display: flex;
